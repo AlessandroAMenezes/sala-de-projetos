@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+.banner-fundo { 
+    width:100%;
+    height: 25vh;
+    background-image: url("../assets/img-fundo.jpg");
+    background-size: cover;
+    background-position: top;   
+}
+
+.info-quartos {
+    width: 100%;
+    padding: 30px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    color: #595858;
+}
+
+.info-quartos h3 {
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+.info-quartos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;   
+}
+
+.info-quartos li {
+    width: 230px;
+    text-align: left;
+}
+

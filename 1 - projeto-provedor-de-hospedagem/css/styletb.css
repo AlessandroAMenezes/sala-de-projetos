@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.secao-topo, .secao-rodape {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.topo {
+    width: 100%;
+    max-width: 1024px;
+    padding: 35px 0;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box
+    
+}
+.contener-logo img, .contener-logo1 img {
+    width: 80px;
+}
+
+.contener-logo {
+    width: 50%;
+    display: flex;
+    align-items: left;
+}
+.contener-logo1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.text-logo h1 {
+    font-size: 32px;
+    margin: 0 15px;
+    color: #000000;
+}
+
+.text-logo p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 15px;
+}
+
+.link-nav {
+    width: 50%;
+    text-align: right;
+}
+.link-nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.secao-tabela {
+    width: 100%;
+    padding: 50px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+.conteudo-tabela {
+    width: 100%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+thead .col {
+    width: 225px;
+    height: 130px;
+    background-color: #f1f3f7;
+
+}
+
+.col p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #b3b6ba;
+}
+
+.col h2 {
+    font-size: 36px;
+    font-weight:800;
+    color: #000000;
+    padding: 10px 20px;
+}
+
+.lin {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 100px 20px 40px;
+    background-color: #f1f3f7;
+    text-align: left;
+}
+
+table td {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fafafb;
+}
+
+.o {
+    background: #2f86d6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: 0 auto
+    
+}
+
+.rodape1 {
+    width: 100%;
+    max-width: 1024px;
+    font-weight: bold;
+    padding: 35px 0 55px 0;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #fff;   
+} 
+
+.rodape {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f6f6f6 ;
+}
+
+.rodape span {
+    
+    color: #2f86d6
+
+}
